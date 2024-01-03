@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p, h1{
+    text-align: center;
+}
+
+/*Hearder*/
+header > div{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+header div ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+
+#barra {
+    width: 40px;
+    height: 40px;
+}
+
+input {
+    margin-right: 50px;
+    width: 300px;
+    height: 25px;
+    border: none;
+}
+
+header img{
+    height: 60px;
+    width: 210px;
+}
+
+/*Body */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: 10px;
+    padding: 5px;
+    background-color: blueviolet;
+}
+.register a{
+    color: rgb(76, 0, 255);
+}
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+  }
+  
+  .register-form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(137, 43, 226, 0.301);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 3px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: rgb(168, 43, 226);
+  }
+
+/* Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+#blocos {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.bloco {
+    background-color: rgb(80, 80, 80);
+    padding: 5px;
+    margin: 5px;
+}
+
+footer > div, footer > div a{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+}
+
+#Pagamento {
+    display: flex;
+    justify-content: space-evenly;
+}

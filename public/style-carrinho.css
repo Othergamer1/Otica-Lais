@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p, h1{
+    text-align: center;
+}
+
+/*Hearder*/
+header > div{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+header div ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+
+#barra {
+    width: 40px;
+    height: 40px;
+}
+
+input {
+    margin-right: 50px;
+    width: 300px;
+    height: 25px;
+    border: none;
+}
+
+header img{
+    padding-left: 10px;
+    height: 60px;
+    width: 210px;
+}
+
+/*Body */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produtos a {
+    border: solid black;
+    margin: 60px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: 10px;
+    padding: 5px;
+    background-color: blueviolet;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+/*main*/
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+/*Carrinho*/
+#carrinho {
+    width: 45%;
+}
+
+.carrinho-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.carrinho-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.item-detalhes {
+    flex-grow: 1;
+}
+
+.item-açao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#resumo {
+    width: 25%;
+    height: 25%;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #959595;
+}
+
+/* Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+#blocos {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.bloco {
+    background-color: rgb(80, 80, 80);
+    padding: 5px;
+    margin: 5px;
+}
+
+footer > div, footer > div a{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+}
+
+#Pagamento {
+    display: flex;
+    justify-content: space-evenly;
+}
